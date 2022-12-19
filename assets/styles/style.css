@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   height: 9vh;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 40px;
 }
 
@@ -28,8 +28,8 @@
   flex-basis: 12.4%;
   height: 5rem;
   width: 5rem;
-  font-size: 4rem;
-  color: white;
+  font-size: 3rem;
+  color: rgb(185, 185, 185);
   display: flex;
   justify-content: center;
   align-items: center;
