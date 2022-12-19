@@ -1,5 +1,5 @@
 * {
-  background: rgb(80, 80, 58);
+  background: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
 }
@@ -24,8 +24,12 @@
  justify-content: space-around;
 }
 
+#boxes .side1 {
+  color: #000;
+}
+
 .box {
-  flex-basis: 12.4%;
+  flex-basis: 12.5%;
   height: 5rem;
   width: 5rem;
   font-size: 3rem;
@@ -33,12 +37,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .black {
-  background: black;
+  background: rgb(34, 24, 5);
 }
 
 .white {
-  background: rgb(119, 101, 44);
+  background: rgb(177, 161, 109);
+}
+
+#boxes .possible {
+  background: rgba(0, 128, 0, 0.801);
 }
