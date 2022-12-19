@@ -2,6 +2,7 @@
   background: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
+  font-family: Verdana;
 }
 
 #intro {
@@ -25,7 +26,7 @@
 }
 
 #boxes .side1 {
-  color: #000;
+  color: rgb(226, 226, 226);
 }
 
 .box {
@@ -33,7 +34,7 @@
   height: 5rem;
   width: 5rem;
   font-size: 3rem;
-  color: rgb(185, 185, 185);
+  color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,11 +42,11 @@
 }
 
 .black {
-  background: rgb(34, 24, 5);
+  background: #c5a67d;
 }
 
 .white {
-  background: rgb(177, 161, 109);
+  background: rgb(85, 64, 37);
 }
 
 #boxes .possible {
