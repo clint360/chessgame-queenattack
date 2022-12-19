@@ -1,25 +1,38 @@
 * {
-  background: rgb(105, 105, 50);
+  background: rgb(80, 80, 58);
   margin: 0;
   padding: 0;
+}
+
+#intro {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  color: white;
+  font-size: 40px;
 }
 
 #boxes {
  display: flex;
  flex-wrap: wrap;
- width: 60%;
+ width: 90%;
  margin: auto;
- padding-top: 60px;
- min-width: 700px;
+ min-width: 400px;
+ max-width:700px;
  justify-content: space-around;
 }
 
 .box {
-  border-left: 1px solid rgb(105, 105, 50);
-  border-bottom: 1px solid rgb(105, 105, 50);
-  flex-basis: 12.3%;
-  height: 80px;
-  width: 50px;
+  flex-basis: 12.4%;
+  height: 5rem;
+  width: 5rem;
+  font-size: 4rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .black {
@@ -27,5 +40,5 @@
 }
 
 .white {
-  background: white;
+  background: rgb(119, 101, 44);
 }
